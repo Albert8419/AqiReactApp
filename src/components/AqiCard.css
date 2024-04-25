@@ -1,0 +1,140 @@
+/* Styling for the AQI card */
+.aqi-card {
+  background-color: transparent; /* Transparent background */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  width: 500px; /* Fixed width */
+  height: 700px; /* Fixed height */
+  margin: auto; /* Center horizontally */
+  padding: 2rem; /* Padding */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Column layout */
+  justify-content: space-between; /* Space between sections */
+  align-items: center; /* Center items */
+  color: #000503; /* Text color */
+  font-size: larger; /* Larger font size */
+  font-weight: bold; /* Bold font weight */
+  background: url('https://images.unsplash.com/photo-1601297183305-6df142704ea2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed; /* Background image */
+}
+
+/* Styling for the top section */
+.aqi-top-section {
+  width: 100%; /* Full width */
+  text-align: center; /* Center text */
+  margin-bottom: 1rem; /* Bottom margin */
+}
+
+/* Styling for the middle section */
+.aqi-middle-section {
+  flex-grow: 2; /* Allow section to grow */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Column layout */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  width: 100%; /* Full width */
+  gap: 1rem; /* Gap between elements */
+}
+
+/* Styling for the bottom section */
+.aqi-bottom-section {
+  flex-grow: 1; /* Allow section to grow */
+  width: 100%; /* Full width */
+  align-self: stretch; /* Stretch to container width */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Column layout */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  padding-top: 0.5rem; /* Top padding */
+}
+
+/* Styling for the search form */
+.aqi-search-form {
+  display: flex; /* Flexbox layout */
+  gap: 0.5rem; /* Gap between elements */
+  justify-content: center; /* Center horizontally */
+  width: auto; /* Auto width */
+  color: #f8f6f6; /* Text color */
+}
+
+/* Styling for the search input */
+.aqi-search-input {
+  border: 3px solid #00ff2a; /* Border color */
+  border-radius: 50px; /* Rounded border */
+  padding: 1rem; /* Padding */
+  font-size: 1rem; /* Font size */
+  flex-grow: 1; /* Allow input to grow */
+  background-color: transparent; /* Transparent background */
+  color: #0c0c0c; /* Text color */
+}
+
+/* Styling for the search button */
+.aqi-search-button {
+  padding: 0.5rem 1rem; /* Padding */
+  border: none; /* No border */
+  border-radius: 50px; /* Rounded border */
+  cursor: pointer; /* Pointer cursor */
+  background-color: #131212; /* Background color */
+  color: #00ff2a; /* Text color */
+  font-size: 1.2rem; /* Font size */
+  transition: background-color 0.3s; /* Transition effect */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Hover styling for the search button */
+.aqi-search-button:hover {
+  background-color: #358badaf; /* Darker background color */
+}
+
+/* Loading state styling for the search button */
+.aqi-search-button.loading {
+  background-color: #358badaf; /* Loading state background color */
+}
+
+/* Styling for the city wrapper */
+.aqi-value-city-wrapper {
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Column layout */
+  align-items: center; /* Center horizontally */
+  gap: 1rem; /* Gap between elements */
+  flex-grow: 1; /* Allow section to grow */
+  justify-content: center; /* Center vertically */
+}
+
+/* Styling for the city name */
+.aqi-city-name {
+  font-size: 3rem; /* Larger font size */
+  font-weight: bold; /* Bold font weight */
+  color: #00ff2a; /* Text color */
+}
+
+/* Styling for the AQI value */
+.aqi-value {
+  font-size: 8rem; /* Larger font size */
+  font-weight: bold; /* Bold font weight */
+  color: #ffffff; /* White color */
+}
+
+/* Styling for the AQI details */
+.aqi-details {
+  font-size: 1.2rem; /* Font size */
+  font-weight: bold; /* Bold font weight */
+  color: #070707; /* Text color */
+  margin-top: 2rem; /* Top margin */
+}
+
+/* Styling for the AQI error */
+.aqi-error {
+  color: #dc3545; /* Error color */
+}
+
+/* Styling for the AQI prompt */
+.aqi-prompt {
+  font-size: 1.2rem; /* Font size */
+  color: #fcfafa; /* Text color */
+}
+
+/* Styling for the AQI footer */
+.aqi-footer {
+  font-size: 1rem; /* Font size */
+  color: #faf9f9; /* Text color */
+}

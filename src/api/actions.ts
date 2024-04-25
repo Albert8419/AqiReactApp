@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Defines the base URL for the API
-const API_BASE_URL = "https://shiny-space-couscous-7wpr4v7p95gcpqxg-3000.app.github.dev/api";
+const API_BASE_URL = "https://vigilant-space-guacamole-7wpr4v7rg6p3p769-3000.app.github.dev/api";
 
 // Defines the interface for AQI data
 export interface AQIData {
